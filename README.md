@@ -86,9 +86,9 @@ const alias = {
   noMotion: '(prefers-reduced-motion: reduce)',
 };
 const App = () => (
-  <AliasProvider alias={alias}>
+  <Provider alias={alias}>
     <MyAppComponent />
-  </AliasProvider>
+  </Provider>
 );
 
 export default App;
